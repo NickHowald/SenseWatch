@@ -1,0 +1,55 @@
+.background {
+  viewport-fill: black;
+}
+
+
+.date-label {
+  font-size: 20;
+  font-family: Seville-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: #998100;
+}
+
+.time-label {
+  font-size: 90;
+  font-family: SevilleSharp-Regular;
+  text-length: 32;
+  text-anchor: middle;
+  fill: #998100;
+}
+
+.right-icon {
+	font-family: SevilleSharp-Regular;
+  font-size: 30;
+  fill: #998100;
+  text-anchor: end;
+	text-length: 10; 
+}
+.left-icon {
+	font-family: SevilleSharp-Regular;
+  font-size: 30;
+  fill: #998100;
+  text-anchor: start;
+	text-length: 10; 
+}
+.right-label {
+	font-family: SevilleSharp-Regular;
+  font-size: 30;
+  fill: #998100;
+  text-anchor: end;
+	text-length: 10; 
+}
+.left-label {
+	font-family: SevilleSharp-Regular;
+  font-size: 30;
+  fill: #998100;
+  text-anchor: start;
+	text-length: 10; 
+}
+.battery-label{
+  font-family: SevilleSharp-Regular;
+  font-size: 20;
+  fill: #998100;
+  text-anchor: start;
+}

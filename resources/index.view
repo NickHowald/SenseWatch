@@ -1,0 +1,58 @@
+<svg id="screen" class="background">
+  <defs>
+      <link rel="stylesheet" href="styles.css" />
+    </defs>
+  
+  <rect id="background" class="background"/>
+    
+  <g>  
+   <svg x="0" y="10" width="100%" height= "50%">
+    <text id="date-label" class="date-label" x="50%" y="10%">aa aaa</text>
+     <text id="time-label" class="time-label" x="50%" y="60%">##:##</text>
+     <text id="ampm-label" class="date-label" x="100%-50" y="60%">na</text>
+  </svg>
+   
+  <svg x="10" y="50%" width="50%" height= "50%">
+     <!-- resting heart rate, calories, active minutes-->  
+       <g id="restHR" >
+         <image id="restHRIcon" class="left-icon" href="heart_rate_36px.png" width="36" height="36" y="0" x="0"/>
+         <text id="RestHRtext" class="left-label" y="30" x="40">8888</text>    
+    </g>
+    <g id="Calories" >
+         <image id="CaloriesIcon" class="left-icon" href="calories_36px.png" width="36" height="36" y="40" x="10"/>
+         <text id="CaloriesText" class="left-label" y="70" x="50">2222</text>    
+    </g>
+    <g id="activeMinutes" >
+         <image id="activeMinutesIcon" class="left-icon" href="azm_36px.png" width="36" height="36" y="80" x="20"/>
+         <text id="activeMinutesText" class="left-label" y="110" x="60">3333</text>    
+    </g>
+  </svg>
+ 
+    <svg x="50%" y="50%" width="50%" height= "50%">
+    <!-- steps, distance, floors-->
+
+    <g id="distance" >
+         <image id="distanceIcon" class="right-icon" href="distance_36px.png" width="36" height="36" y="0" x="100%-40"/>
+         <text id="distanceText" class="right-label" y="30" x="100%-40">2222</text>    
+    </g>
+    <g id="steps" >
+         <image id="stepsIcon" class="right-icon" href="steps_36px.png" width="36" height="36" y="40" x="100%-50"/>
+         <text id="stepsText" class="right-label" y="70" x="100%-50">3333</text>    
+    </g>
+    <g id="floors" >
+         <image id="floorsIcon" class="right-icon" href="floors_36px.png" width="36" height="36" y="80" x="100%-60"/>
+         <text id="floorsText" class="right-label" y="110" x="100%-60">8888</text>    
+    </g>
+  </svg>
+     
+   
+   <svg x="40%" y="90%" >  
+   <g id="bat">
+      <image id="bat-icon" class="left-icon" href="battery_24px.png" width="24" height="24" x="0" y="0"/>
+      <rect id="bat-fill" />
+      <text id="batteryText" class="battery-label" x="30" y="18" >77</text>
+   </g>  
+   </svg>
+
+  </g>
+</svg>

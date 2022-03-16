@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "294bacb5-704a-4833-b8b3-a4a0b03791de",
+    "appType": "clockface",
+    "appDisplayName": "SenseWatch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "SenseWatch"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
